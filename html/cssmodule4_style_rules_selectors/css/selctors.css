@@ -1,0 +1,27 @@
+/* Tag Selector */
+img{
+    border: slateblue solid 1px;
+}
+/* Class Selector */
+.tutorial{
+    border: solid 1px red;
+}
+/* id Selector */
+
+#cplusplus{
+    background-color: purple;
+}
+/* Attribute Selector */
+
+img[src="images/tokyo.jpg"]{
+    border: 3px solid orange;
+}
+/* List Selector */
+ h1,h2{
+    color: red;
+} 
+/* List Selector Example 2 */
+ .tutorial,h1,h2{
+    border: 3px solid red;
+} 
+
